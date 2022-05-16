@@ -1,10 +1,5 @@
 from module.lib.cli import CLI
 
-
-def sum(a, b):
-    return a + b
-
-
 def main():
     args = CLI().parse_args()
 
