@@ -20,7 +20,7 @@ Excecute unit tests with pytest
 make test
 ```
 
-Excecute breformatting with black to be compliant with pep8
+Excecute reformatting with black to be compliant with pep8
 
 ``` bash
 make reformat
