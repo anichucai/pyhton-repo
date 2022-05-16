@@ -2,7 +2,7 @@ import argparse
 
 
 class CLI:
-    """A simple example class"""
+    """A simple command-line interface"""
 
     def __init__(self):
         self.parser = argparse.ArgumentParser(
