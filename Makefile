@@ -26,6 +26,7 @@ test:
 reformat:
 	echo "Reformatting: "
 	black --diff *.py
+	black --diff module/*/*.py
 	black *.py
 
 .PHONY: all venv run clean

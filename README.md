@@ -5,7 +5,7 @@
 Create environment and install dependencies:
 
 ``` bash
-$ make venv
+make venv
 ```
 
 Delete environment and uninstall dependencies:

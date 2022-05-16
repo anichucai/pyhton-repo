@@ -1,2 +1,2 @@
-def example_sum(a,b):
+def example_sum(a, b):
     return a + b
