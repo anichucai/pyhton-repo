@@ -11,23 +11,23 @@ $ make venv
 Delete environment and uninstall dependencies:
 
 ``` bash
-$ make clean
+make clean
 ```
 
 Excecute unit tests with pytest
 
 ``` bash
-$ make test
+make test
 ```
 
 Excecute breformatting with black to be compliant with pep8
 
 ``` bash
-$ make reformat
+make reformat
 ```
 
 Run basic app
 
 ``` bash
-$ make run
+make run
 ```
