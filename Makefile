@@ -24,7 +24,9 @@ test:
 
 # Reformatting so it is compliant with pep8
 reformat:
-	echo "Reformatting: "
+	echo "Run pep8 checker flake8"
+	flake8
+	echo "Reformatting with back"
 	black --diff *.py
 	black --diff module/*/*.py
 	black *.py
