@@ -8,7 +8,7 @@ Create environment and install dependencies:
 make venv
 ```
 
-Delete environment and uninstall dependencies:
+clean environment
 
 ``` bash
 make clean
