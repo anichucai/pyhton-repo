@@ -1,5 +1,6 @@
 from module.lib.cli import CLI
 
+
 def main():
     args = CLI().parse_args()
 
