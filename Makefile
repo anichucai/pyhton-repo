@@ -12,7 +12,7 @@ $(VENV)/bin/activate: requirements.txt
 venv: $(VENV)/bin/activate
 
 run: venv
-	./$(VENV)/bin/python3 app.py
+	./venv/bin/python3 app.py 2 3  -v
 
 clean:
 	rm -rf $(VENV)
@@ -24,11 +24,10 @@ test:
 
 # Reformatting so it is compliant with pep8
 reformat:
-	echo "Run pep8 checker flake8"
-	flake8
 	echo "Reformatting with back"
 	black --diff *.py
 	black --diff module/*/*.py
 	black *.py
+	flake8
 
 .PHONY: all venv run clean
